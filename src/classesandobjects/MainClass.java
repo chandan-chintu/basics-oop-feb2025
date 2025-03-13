@@ -5,7 +5,6 @@ public class MainClass {
         Student student1 = new Student();
         System.out.println("before assigning values : "+student1);
 
-
         // assigning the values to student object
         student1.id =101;
         student1.name="Sanjay";
@@ -14,6 +13,7 @@ public class MainClass {
         student1.gender="male";
         student1.grade="9th grade B section";
 
+        // added dummy lines
         System.out.println("after assigning values : "+student1);
 
         int abc = 100;
@@ -25,6 +25,7 @@ public class MainClass {
         System.out.println("pqr is : "+pqr);
         // pqr=400; - cannot update
 
+        // added dummy lines
         System.out.println("mno value is : "+student1.mno);// since it is non-static object is required
         System.out.println("xyz value is : "+Student.xyz); // since it is static object is not required
 
